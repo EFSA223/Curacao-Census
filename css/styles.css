@@ -1,0 +1,52 @@
+/* custom CSS rules */
+
+/* display none for layout but be careful of license restrictions */
+.mapbox-logo, .leaflet-control-attribution {
+  display: none; 
+}
+.legend-large, .legend-small {
+    border-radius: 50%;
+}
+
+hr.small, hr.large {
+    width: 53px;
+    position: absolute;
+    top: -8px;
+    left: 25px;
+    border: 1px dashed #ccc;      
+    margin-top: 8px;             
+}
+
+.male {
+    color: #0655d3;
+}
+
+.female {
+    color: #00915e;
+}
+
+.filter {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 480px;
+  font-size: 1.3em;
+}
+
+#info,
+#slider,
+#legend,
+#categorie{  
+  display: none;
+}
+
+#info,
+#categorie,
+.filter {
+  z-index: 1000;
+}
+
+.bg-white,
+.bg-yellow-faint{
+    padding-top: 7px;
+}
